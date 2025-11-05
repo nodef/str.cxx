@@ -8,6 +8,13 @@ This software is in the public domain. Where that dedication is not
 recognized, you are granted a perpetual, irrevocable license to copy,
 distribute, and modify this file as you see fit.
 
+INSTALLATION
+Run:
+$ npm i str.cxx
+
+And then include `Str.h` as follows:
+#include "node_modules/str.cxx/src/Str.h"
+
 USAGE
 Include Str.h in whatever places need to refer to it.
 In ONE .cpp file, write '#define STR_IMPLEMENTATION' before the #include.
@@ -69,3 +76,10 @@ So you can pass e.g. Str256* to a function taking base type Str* and it will be 
 (Using a template e.g. Str<N> we could remove the LocalBufSize storage but it would make passing typed Str<> to functions tricky.
  Instead we don't use template so you can pass them around as the base type Str*. Also, templates are ugly.)
 ```
+
+<br>
+<br>
+
+
+[![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/str.cxx)

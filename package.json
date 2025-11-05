@@ -1,0 +1,15 @@
+{
+  "name": "str.cxx",
+  "version": "0.33.0",
+  "description": "Lightweight C++ string type with a configurable local buffer; Omar (2015).",
+  "keywords": ["c++", "library", "string", "local buffer", "lightweight"],
+  "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/str.cxx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nodef/str.cxx/issues"
+  },
+  "homepage": "https://github.com/nodef/str.cxx#readme"
+}
